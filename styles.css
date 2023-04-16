@@ -183,19 +183,16 @@ section.banner-top > h2 {
   text-align: center;
 }
 
-
 .work-graphics-list {
   display: flex;
   gap: 40.5px;
 }
-
 
 .team {
   background-color: #f5f4fa;
   margin-top: 94px;
   padding-top: 94px;
 }
-
 
 .team h2 {
   font-size: 36px;
@@ -207,13 +204,12 @@ section.banner-top > h2 {
 .team-cards {
   align-items: center;
   text-align: center;
-   display: flex;
-   gap:33.3px;
-   padding-top: 50px;
-   padding-bottom: 94px;
-   padding-left: 10px;
-   
- }
+  display: flex;
+  gap: 33.3px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  padding-left: 10px;
+}
 
 .team-cards li {
   align-items: center;
@@ -236,12 +232,10 @@ section.banner-top > h2 {
   padding-bottom: 30px;
 }
 
-
-
 /*portafolio web*/
 .menu-filter {
   display: flex;
-  gap:8px;
+  gap: 8px;
   padding-top: 101px;
   padding-bottom: 50px;
   padding-left: 280px;
@@ -279,9 +273,8 @@ section.banner-top > h2 {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap:30px;
+  gap: 30px;
   padding-bottom: 82px;
-
 }
 
 .visualizer-windows li {
@@ -296,7 +289,6 @@ section.banner-top > h2 {
   border-radius: 0px;
   border: 1px solid #eeeeee;
 }
-
 
 .visualizer-windows h3 {
   font-size: 18px;
@@ -332,15 +324,22 @@ section.banner-top > h2 {
   gap: 10px;
 }
 
+.footer-bar-porta {
+  background-color: #2f303a;
+  color: #ffffff99;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding-top: 60px;
+}
+
 /*footer general*/
 
 .footer-bar {
   background-color: #2f303a;
   color: #ffffff99;
-  display: flex;
   font-style: normal;
-  flex-wrap: wrap;
-  gap: 70px;
   padding-top: 60px;
 }
 
@@ -349,7 +348,6 @@ section.banner-top > h2 {
   font-size: 26px;
   font-weight: 700;
   color: #2196f3;
-  
 }
 
 .footer-adress {
@@ -369,7 +367,6 @@ ul.footer-mail-tel a {
   color: #ffffff99;
   letter-spacing: 0.03em;
   line-height: 1.71;
-  
 }
 
 .footer-mail-tel a:hover,
