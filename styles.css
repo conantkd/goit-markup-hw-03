@@ -280,6 +280,7 @@ section.banner-top > h2 {
   display: flex;
   flex-wrap: wrap;
   gap:30px;
+  padding-bottom: 82px;
 
 }
 
@@ -295,6 +296,7 @@ section.banner-top > h2 {
   border-radius: 0px;
   border: 1px solid #eeeeee;
 }
+
 
 .visualizer-windows h3 {
   font-size: 18px;
@@ -320,17 +322,25 @@ section.banner-top > h2 {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
 .social-network-footer {
   cursor: pointer;
+  display: flex;
+  gap: 10px;
 }
+
 /*footer general*/
 
 .footer-bar {
   background-color: #2f303a;
-  font-style: normal;
   color: #ffffff99;
+  display: flex;
+  font-style: normal;
+  flex-wrap: wrap;
+  gap: 70px;
   padding-top: 60px;
 }
 
