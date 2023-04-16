@@ -45,12 +45,12 @@ a.active {
   display: flex;
 }
 
-.logo {
+.header-style {
   margin-top: 24px;
   margin-bottom: 25px;
 }
 
-.logo a {
+.header-style a {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
