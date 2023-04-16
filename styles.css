@@ -331,6 +331,7 @@ section.banner-top > h2 {
   flex-wrap: wrap;
   gap: 70px;
   padding-top: 60px;
+  padding-left: 10px;
 }
 
 /*footer general*/
@@ -340,6 +341,7 @@ section.banner-top > h2 {
   color: #ffffff99;
   font-style: normal;
   padding-top: 60px;
+  padding-left: 10px;
 }
 
 .footer-title {
