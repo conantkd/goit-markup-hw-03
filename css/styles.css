@@ -45,12 +45,12 @@ a.active {
   display: flex;
 }
 
-.header-style {
+.logo {
   margin-top: 24px;
   margin-bottom: 25px;
 }
 
-.header-style a {
+.logo a {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -81,6 +81,7 @@ ul.nav-bar li a {
   gap: 30px;
 }
 
+/*contact portafolio*/
 .contact-with-svg {
   display: flex;
   padding-top: 32px;
@@ -119,7 +120,7 @@ section.banner-top > h2 {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  padding-top: 200px;
+  padding-top: 94px;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -134,7 +135,7 @@ section.banner-top > h2 {
   padding: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  margin-bottom: 200px;
+  margin-bottom: 94px;
   text-align: center;
   color: #fff;
   border: 0px;
@@ -235,7 +236,7 @@ section.banner-top > h2 {
 .menu-filter {
   display: flex;
   gap: 8px;
-  padding-top: 101px;
+  padding-top: 94px;
   padding-bottom: 50px;
   padding-left: 280px;
 }
@@ -273,7 +274,7 @@ section.banner-top > h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 82px;
+  padding-bottom: 94px;
 }
 
 .visualizer-windows li {
