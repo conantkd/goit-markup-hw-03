@@ -1,6 +1,5 @@
 * {
   padding: 0;
-  width: auto;
   margin: 0;
 }
 
@@ -38,12 +37,15 @@ a.active {
 
 .container {
   box-sizing: content-box;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
 }
 
 .page-header {
   border-bottom: 1px solid #ececec;
-  width: 1200px;
+  width: 100%;
 }
 
 .logo {
@@ -120,12 +122,13 @@ ul.contact-header li a:focus {
 }
 
 /*index web*/
-section.banner-top {
+.banner-top {
   background-color: #2f303a;
   box-shadow: 0px 2px 4px #2f303a;
   text-align: center;
-  width: 1200px;
+  width:100%;
 }
+
 
 section.banner-top .container > h2 {
   font-size: 44px;
@@ -244,11 +247,15 @@ section.banner-top .container > h2 {
 }
 
 /*portafolio web*/
+
 .menu-filter {
   display: flex;
   gap: 8px;
   padding-top: 94px;
   padding-bottom: 50px;
+}
+
+.container-menu {
   padding-left: 280px;
 }
 
@@ -338,11 +345,20 @@ section.banner-top .container > h2 {
 .footer-bar-porta {
   background-color: #2f303a;
   color: #ffffff99;
+  
+}
+
+.container-porta {
   font-style: normal;
   display: flex;
   flex-wrap: wrap;
   gap: 70px;
   padding-top: 60px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 
 /*footer general*/
@@ -353,6 +369,7 @@ section.banner-top .container > h2 {
   font-style: normal;
   padding-top: 60px;
   padding-left: 10px;
+  width: 100%;
 }
 
 .footer-title {
