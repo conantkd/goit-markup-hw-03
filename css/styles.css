@@ -11,7 +11,6 @@ body {
 
 .no-bullets {
   list-style: none;
-  
 }
 
 a {
@@ -49,7 +48,7 @@ a.active {
 }
 
 .logo {
-  display:inline-block;
+  display: inline-block;
   margin-top: 24px;
   margin-bottom: 25px;
 }
@@ -86,7 +85,6 @@ ul.nav-bar li a {
 .contact-top {
   display: inline-block;
 }
-
 
 .contact-header {
   display: flex;
@@ -126,9 +124,8 @@ ul.contact-header li a:focus {
   background-color: #2f303a;
   box-shadow: 0px 2px 4px #2f303a;
   text-align: center;
-  width:100%;
+  width: 100%;
 }
-
 
 section.banner-top .container > h2 {
   font-size: 44px;
@@ -187,6 +184,7 @@ section.banner-top .container > h2 {
 
 .work-graphics {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work-graphics h2 {
@@ -203,10 +201,8 @@ section.banner-top .container > h2 {
   gap: 40.5px;
 }
 
-.team .container {
+.team {
   background-color: #f5f4fa;
-  margin-top: 94px;
-  padding-top: 94px;
 }
 
 .team h2 {
@@ -214,13 +210,14 @@ section.banner-top .container > h2 {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 94px;
 }
 
 .team-cards {
   align-items: center;
   text-align: center;
   display: flex;
-  gap: 33.3px;
+  gap: 40px;
   padding-top: 50px;
   padding-bottom: 94px;
 }
@@ -345,7 +342,6 @@ section.banner-top .container > h2 {
 .footer-bar-porta {
   background-color: #2f303a;
   color: #ffffff99;
-  
 }
 
 .container-porta {
@@ -358,7 +354,6 @@ section.banner-top .container > h2 {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 
 /*footer general*/
