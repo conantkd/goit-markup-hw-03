@@ -45,8 +45,7 @@ a.active {
 
 .page-header {
   border-bottom: 1px solid #ececec;
-  width: 100%;
-}
+  }
 
 .logo {
   display: inline-block;
@@ -125,7 +124,7 @@ ul.contact-header li a:focus {
   background-color: #2f303a;
   box-shadow: 0px 2px 4px #2f303a;
   text-align: center;
-  width: 100%;
+  ;
 }
 
 section.banner-top .container > h2 {
@@ -365,7 +364,7 @@ section.banner-top .container > h2 {
   font-style: normal;
   padding-top: 60px;
   padding-left: 10px;
-  width: 100%;
+  ;
 }
 
 .footer-title {
